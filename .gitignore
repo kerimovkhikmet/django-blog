@@ -43,10 +43,6 @@ MANIFEST
 *.manifest
 *.spec
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
 # Unit test / coverage reports
 htmlcov/
 .tox/
@@ -62,42 +58,14 @@ coverage.xml
 .pytest_cache/
 pytestdebug.log
 
-# Scrapy stuff:
-.scrapy
-
 # pyenv
 .python-version
 
-# Celery stuff
-celerybeat-schedule
-celerybeat.pid
-
 # Environments
-lab1/
+lab1_env/
 
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pyre type checker
-.pyre/
-
-# pytype static type analyzer
-.pytype/
-
-# profiling data
-.prof
+# File '.env' with environment variables
+.env
 
 ### Git ###
 # Created by git for backups. To disable backups in Git:
@@ -113,21 +81,6 @@ dmypy.json
 *_BASE_*.txt
 *_LOCAL_*.txt
 *_REMOTE_*.txt
-
-### Linux ###
-*~
-
-# temporary files which can be created if a process still has a handle open of a deleted file
-.fuse_hidden*
-
-# KDE directory preferences
-.directory
-
-# Linux trash folder which might appear on any partition or disk
-.Trash-*
-
-# .nfs files are created when an open file is removed but is still being accessed
-.nfs*
 
 ### vscode ###
 .vscode/*
